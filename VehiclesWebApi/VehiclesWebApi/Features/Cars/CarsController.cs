@@ -18,5 +18,46 @@ namespace VehiclesWebApi.Features.Cars
 
             return Ok(cars);
         }
+
+        [HttpGet]
+        [Route("{Id}")]
+        public ActionResult<Car> GetCar(int Id)
+        {
+            return Ok(new Car() { TeamName = "Team1", Speed = 100, MalfunctionChance = 0.3 });
+        }
+
+        
+        
+        //Create Car
+        [HttpPost]
+        public ActionResult<Car> CreateCar(Car car)
+        {
+            var newCar = car;
+
+            return Ok(newCar);
+
+        }
+
+
+        //Update Car
+        [HttpPut]
+        [Route("{Id}")]
+        public ActionResult<Car> UpdateCar(Car car)
+        {
+            var newCar = car;
+
+            return Ok(newCar);
+
+        }
+
+        //Delete Car
+        [HttpDelete]
+        [Route("{Id}")]
+        public ActionResult DeleteCar(int Id)
+        {
+
+            return Ok("Car Deleted");
+
+        }
     }
 }
