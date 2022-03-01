@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesWebApi", "VehiclesWebApi\VehiclesWebApi.csproj", "{86BA093F-52CD-4BEB-9999-F91A392AA424}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesWebApi.Domain", "VehiclesWebApi.Domain\VehiclesWebApi.Domain.csproj", "{D7B4A53F-87E1-47BE-B35A-89C995D06CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesWebApi.Infrastructure", "VehiclesWebApi.Infrastructure\VehiclesWebApi.Infrastructure.csproj", "{848B3056-0F68-46DA-A800-780DCD6996BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{86BA093F-52CD-4BEB-9999-F91A392AA424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86BA093F-52CD-4BEB-9999-F91A392AA424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86BA093F-52CD-4BEB-9999-F91A392AA424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B4A53F-87E1-47BE-B35A-89C995D06CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B4A53F-87E1-47BE-B35A-89C995D06CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B4A53F-87E1-47BE-B35A-89C995D06CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B4A53F-87E1-47BE-B35A-89C995D06CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848B3056-0F68-46DA-A800-780DCD6996BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848B3056-0F68-46DA-A800-780DCD6996BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848B3056-0F68-46DA-A800-780DCD6996BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848B3056-0F68-46DA-A800-780DCD6996BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
