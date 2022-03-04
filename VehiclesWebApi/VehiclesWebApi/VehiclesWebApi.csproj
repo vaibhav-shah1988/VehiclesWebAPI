@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.14">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -14,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VehiclesWebApi.Domain\VehiclesWebApi.Domain.csproj" />
+    <ProjectReference Include="..\VehiclesWebApi.Infrastructure\VehiclesWebApi.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
